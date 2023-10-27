@@ -16,3 +16,10 @@ results = classifier(["We are happy to show the transformers Library.",
 
 for result in results:
     print(result)
+
+
+tokens = tokenizer.tokenize("We are happy to show the transformers Library.")
+token_ids = tokenizer.convert_tokens_to_ids(tokens)
+
+print(f"    Tokens: {tokens}")
+print(f"Token IDs: {token_ids}")
