@@ -20,6 +20,9 @@ for result in results:
 
 tokens = tokenizer.tokenize("We are happy to show the transformers Library.")
 token_ids = tokenizer.convert_tokens_to_ids(tokens)
+# using tokenizer function
+input_ids = tokenizer("We are happy to show the transformers Library.")
 
 print(f"    Tokens: {tokens}")
 print(f"Token IDs: {token_ids}")
+print(f"Token IDs: {input_ids}")
