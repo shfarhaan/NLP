@@ -70,3 +70,4 @@ with torch.no_grad():
     # Convert label IDs to human-readable labels using the model's configuration
     labels = [model.config.id2label[label_id] for label_id in labels.tolist()]
     print(labels)
+
