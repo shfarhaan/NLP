@@ -71,3 +71,4 @@ with torch.no_grad():
     labels = [model.config.id2label[label_id] for label_id in labels.tolist()]
     print(labels)
 
+
