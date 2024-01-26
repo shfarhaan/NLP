@@ -17,6 +17,3 @@ This repository contains code and data for various natural language processing (
 - To run text summarization, use: `python summarize.py --input input.txt --output output.txt --model t5-base`
 - To run sentiment analysis, use: `python sentiment.py --input input.txt --output output.txt --model bert-base-cased`
 - To run machine translation, use: `python translate.py --input input.txt --output output.txt --model m2m-100 --src_lang en --tgt_lang fr`
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
